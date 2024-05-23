@@ -26,5 +26,10 @@ public static class Messages
             public const string MESSAGE_HOME_LIST_SUMMARY = "List movies random";
             public const string MESSAGE_HOME_LIST_DESCRIPTION = "This endpoint returns the information about Movies random";
         }
+        public struct MovieEndpoint
+        {
+            public const string MESSAGE_MOVIE_LIST_SUMMARY = "List all movies";
+            public const string MESSAGE_MOVIE_LIST_DESCRIPTION = "This endpoint returns the information about Movies";
+        }
     }
 }

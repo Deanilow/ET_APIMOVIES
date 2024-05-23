@@ -64,6 +64,7 @@ TrendingRoutes.RegisterTrendingApi(app);
 PopularRoutes.RegisterPopularApi(app);
 SearchRoutes.RegisterSearchApi(app);
 HomeRoutes.RegisterHomeApi(app);
+MovieRoutes.RegisterMovieApi(app);
 
 app.UseStatusCodePages(context =>
 {

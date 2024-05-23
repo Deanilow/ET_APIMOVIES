@@ -24,3 +24,4 @@ global using HomeMetadataMessages = ApiMovies.Utils.Messages.EndpointMetadata.Ho
 global using PopularMetadataMessages = ApiMovies.Utils.Messages.EndpointMetadata.PopularEndpoint;
 global using SearchMetadataMessages = ApiMovies.Utils.Messages.EndpointMetadata.SearchEndpoint;
 global using TrendingMetadataMessages = ApiMovies.Utils.Messages.EndpointMetadata.TrendingEndpoint;
+global using MovieMetadataMessages = ApiMovies.Utils.Messages.EndpointMetadata.MovieEndpoint;
