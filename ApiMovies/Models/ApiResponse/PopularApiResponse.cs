@@ -1,7 +1,5 @@
-﻿namespace ApiMovies.Models
+﻿namespace ApiMovies.Models;
+public class PopularApiResponse : Movie
 {
-    public class PopularApiResponse : Movie
-    {
-    
-    }
+
 }

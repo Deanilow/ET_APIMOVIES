@@ -1,16 +1,3 @@
-using ApiMovies;
-using ApiMovies.Background;
-using ApiMovies.Common;
-using ApiMovies.Common.Interfaces;
-using ApiMovies.Common.Service;
-using ApiMovies.Data.Initialization;
-using ApiMovies.Logger;
-using ApiMovies.Routes;
-using Microsoft.AspNetCore.Http.Json;
-using Microsoft.OpenApi.Models;
-using System.Net;
-using System.Text.Json.Serialization;
-
 var configuration = new ConfigurationBuilder()
            .AddJsonFile("appsettings.json", true, true)
            .Build();
@@ -67,7 +54,7 @@ builder.Services.AddTransient<IDatabaseInitializer, DatabaseInitializer>();
 builder.Services.AddTransient<IMovieHttps, MovieHttps>();
 builder.Services.AddTransient<ApplicationDbInitializer>();
 builder.Services.AddTransient<ApplicationDbSeeder>();
-builder.Services.AddHostedService<UpdateDataBackgroundService>();
+//builder.Services.AddHostedService<UpdateDataBackgroundService>();
 
 var app = builder.Build();
 

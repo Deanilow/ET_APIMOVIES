@@ -1,7 +1,4 @@
-﻿using ApiMovies.Models;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Microsoft.EntityFrameworkCore;
-
+﻿namespace ApiMovies.Data.Configs;
 public class IdsConfig : IEntityTypeConfiguration<Ids>
 {
     public void Configure(EntityTypeBuilder<Ids> ids)

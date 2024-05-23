@@ -1,0 +1,38 @@
+2024-05-23 00:13:42.699 -05:00 [Information] Applying Migrations 
+2024-05-23 00:13:43.127 -05:00 [Information] Applying migration '"20240522184828_Init"'.
+2024-05-23 00:13:43.180 -05:00 [Information] Connection  Database Succeeded.
+2024-05-23 00:13:44.314 -05:00 [Information] Insert Trending: Title: The Fall Guy, Year: 2024, Watchers: 93
+2024-05-23 00:13:44.316 -05:00 [Information] Insert Trending: Title: Boy Kills World, Year: 2024, Watchers: 28
+2024-05-23 00:13:44.317 -05:00 [Information] Insert Trending: Title: The Ministry of Ungentlemanly Warfare, Year: 2024, Watchers: 27
+2024-05-23 00:13:44.318 -05:00 [Information] Insert Trending: Title: Godzilla x Kong: The New Empire, Year: 2024, Watchers: 24
+2024-05-23 00:13:44.319 -05:00 [Information] Insert Trending: Title: Dune: Part Two, Year: 2024, Watchers: 15
+2024-05-23 00:13:44.319 -05:00 [Information] Insert Trending: Title: Ghostbusters: Frozen Empire, Year: 2024, Watchers: 15
+2024-05-23 00:13:44.320 -05:00 [Information] Insert Trending: Title: Challengers, Year: 2024, Watchers: 14
+2024-05-23 00:13:44.321 -05:00 [Information] Insert Trending: Title: Kingdom of the Planet of the Apes, Year: 2024, Watchers: 13
+2024-05-23 00:13:44.321 -05:00 [Information] Insert Trending: Title: Godzilla Minus One, Year: 2023, Watchers: 11
+2024-05-23 00:13:44.322 -05:00 [Information] Insert Trending: Title: Monkey Man, Year: 2024, Watchers: 9
+2024-05-23 00:13:44.358 -05:00 [Information] Insert Popular: Title: Deadpool, Year: 2016
+2024-05-23 00:13:44.359 -05:00 [Information] Insert Popular: Title: Guardians of the Galaxy, Year: 2014
+2024-05-23 00:13:44.360 -05:00 [Information] Insert Popular: Title: The Dark Knight, Year: 2008
+2024-05-23 00:13:44.360 -05:00 [Information] Insert Popular: Title: Interstellar, Year: 2014
+2024-05-23 00:13:44.361 -05:00 [Information] Insert Popular: Title: Inception, Year: 2010
+2024-05-23 00:13:44.362 -05:00 [Information] Insert Popular: Title: The Avengers, Year: 2012
+2024-05-23 00:13:44.363 -05:00 [Information] Insert Popular: Title: Doctor Strange, Year: 2016
+2024-05-23 00:13:44.363 -05:00 [Information] Insert Popular: Title: The Matrix, Year: 1999
+2024-05-23 00:13:44.364 -05:00 [Information] Insert Popular: Title: Logan, Year: 2017
+2024-05-23 00:13:44.365 -05:00 [Information] Insert Popular: Title: Avatar, Year: 2009
+2024-05-23 00:13:44.750 -05:00 [Warning] The WebRootPath was not found: "D:\Proyectos\GitHub\ET_APIMOVIES\ApiMovies\wwwroot". Static files may be unavailable.
+2024-05-23 00:13:44.877 -05:00 [Information] Now listening on: "https://localhost:7125"
+2024-05-23 00:13:44.878 -05:00 [Information] Now listening on: "http://localhost:5237"
+2024-05-23 00:13:44.879 -05:00 [Information] Application started. Press Ctrl+C to shut down.
+2024-05-23 00:13:44.880 -05:00 [Information] Hosting environment: "Development"
+2024-05-23 00:13:44.881 -05:00 [Information] Content root path: "D:\Proyectos\GitHub\ET_APIMOVIES\ApiMovies"
+2024-05-23 00:13:45.655 -05:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7125""""/swagger/index.html""" - null null
+2024-05-23 00:13:45.849 -05:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7125""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 197.61ms
+2024-05-23 00:13:45.915 -05:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7125""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2024-05-23 00:13:45.915 -05:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7125""""/_vs/browserLink""" - null null
+2024-05-23 00:13:45.932 -05:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7125""""/_framework/aspnetcore-browser-refresh.js""" - 200 13754 "application/javascript; charset=utf-8" 16.9341ms
+2024-05-23 00:13:45.989 -05:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7125""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 73.6765ms
+2024-05-23 00:13:46.098 -05:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7125""""/swagger/v1/swagger.json""" - null null
+2024-05-23 00:13:46.110 -05:00 [Information] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-05-23 00:13:46.227 -05:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7125""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 129.2041ms

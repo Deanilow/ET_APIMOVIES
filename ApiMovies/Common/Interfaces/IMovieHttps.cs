@@ -1,11 +1,6 @@
-﻿using ApiMovies.Models;
-using ApiMovies.Models.ApiResponse;
-
-namespace ApiMovies.Common.Interfaces
+﻿namespace ApiMovies.Common.Interfaces;
+public interface IMovieHttps
 {
-    public interface IMovieHttps
-    {
-        Task<List<TrendingApiResponse>> GetTrendingAsync();
-        Task<List<PopularApiResponse>> GetPopularAsync();
-    }
+    Task<List<TrendingApiResponse>> GetTrendingAsync();
+    Task<List<PopularApiResponse>> GetPopularAsync();
 }

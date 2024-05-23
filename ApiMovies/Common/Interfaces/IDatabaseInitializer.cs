@@ -1,7 +1,5 @@
-﻿namespace ApiMovies.Common.Interfaces
+﻿namespace ApiMovies.Common.Interfaces;
+internal interface IDatabaseInitializer
 {
-    internal interface IDatabaseInitializer
-    {
-        Task InitializeDatabasesAsync(CancellationToken cancellationToken);
-    }
+    Task InitializeDatabasesAsync(CancellationToken cancellationToken);
 }

@@ -1,34 +1,25 @@
-﻿using ApiMovies.Models;
-using ApiMovies.Utils;
-using Microsoft.EntityFrameworkCore;
-using Swashbuckle.AspNetCore.Annotations;
-using SearchMetadataMessages = ApiMovies.Utils.Messages.EndpointMetadata.SearchEndpoint;
-
-namespace ApiMovies.Routes
+﻿namespace ApiMovies.Routes;
+public static class SearchRoutes
 {
-    public static class SearchRoutes
+    public static void RegisterSearchApi(WebApplication app)
     {
-        public static void RegisterSearchApi(WebApplication app)
+        const string Api_SEARCH_COMPLETE = $"{Util.API_ROUTE}{Util.API_VERSION}{Util.SEARCH_ROUTE}";
+        app.MapGet($"{Api_SEARCH_COMPLETE}/movie/{{name}}", async (string name, DBContext db) =>
         {
-            const string Api_SEARCH_COMPLETE = $"{Util.API_ROUTE}{Util.API_VERSION}{Util.SEARCH_ROUTE}";
-            app.MapGet($"{Api_SEARCH_COMPLETE}/movie/{{name}}", async (string name, DBContext db) =>
+            var movie = await db.Movie
+            .Where(x => x.Title!.ToUpper().Contains(name.Trim().ToUpper())).FirstOrDefaultAsync();
+
+            if (movie is null)
             {
-                var movie = await db.Movie
-                .Where(x => x.Title!.ToUpper().Contains(name.Trim().ToUpper())).FirstOrDefaultAsync();
+                return Results.NotFound();
+            }
 
-                if (movie is null)
-                {
-                    return Results.NotFound();
-                }
-
-                return Results.Ok(movie);
-            })
-            .Produces<List<Movie>?>(200)
-            .WithMetadata(new SwaggerOperationAttribute(
-                summary: SearchMetadataMessages.MESSAGE_SEARCH_LIST_SUMMARY,
-                 description: SearchMetadataMessages.MESSAGE_SEARCH_LIST_DESCRIPTION
-                 ));
-        }
+            return Results.Ok(movie);
+        })
+        .Produces<List<Movie>?>(200)
+        .WithMetadata(new SwaggerOperationAttribute(
+            summary: SearchMetadataMessages.MESSAGE_SEARCH_LIST_SUMMARY,
+             description: SearchMetadataMessages.MESSAGE_SEARCH_LIST_DESCRIPTION
+             ));
     }
 }
-

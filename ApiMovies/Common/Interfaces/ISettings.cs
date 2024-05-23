@@ -1,9 +1,7 @@
-﻿namespace ApiMovies.Common.Interfaces
+﻿namespace ApiMovies.Common.Interfaces;
+public interface ISettings
 {
-    public interface ISettings
-    {
-        string TraktApiKey { get; set; }
-        string UrlTrending { get; set; }
-        string UrlPopular { get; set; }
-    }
+    string TraktApiKey { get; set; }
+    string UrlTrending { get; set; }
+    string UrlPopular { get; set; }
 }
