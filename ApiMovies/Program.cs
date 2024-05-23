@@ -54,7 +54,7 @@ builder.Services.AddTransient<IDatabaseInitializer, DatabaseInitializer>();
 builder.Services.AddTransient<IMovieHttps, MovieHttps>();
 builder.Services.AddTransient<ApplicationDbInitializer>();
 builder.Services.AddTransient<ApplicationDbSeeder>();
-//builder.Services.AddHostedService<UpdateDataBackgroundService>();
+builder.Services.AddHostedService<UpdateDataBackgroundService>();
 
 var app = builder.Build();
 

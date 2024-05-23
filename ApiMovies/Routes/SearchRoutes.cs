@@ -7,7 +7,7 @@ public static class SearchRoutes
         app.MapGet($"{Api_SEARCH_COMPLETE}/movie/{{name}}", async (string name, DBContext db) =>
         {
             var movie = await db.Movie
-            .Where(x => x.Title!.ToUpper().Contains(name.Trim().ToUpper())).FirstOrDefaultAsync();
+            .Where(x => x.Title!.ToUpper().Contains(name.Trim().ToUpper())).ToListAsync();
 
             if (movie is null)
             {

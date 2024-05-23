@@ -36,3 +36,79 @@
 2024-05-23 00:13:46.098 -05:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7125""""/swagger/v1/swagger.json""" - null null
 2024-05-23 00:13:46.110 -05:00 [Information] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
 2024-05-23 00:13:46.227 -05:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7125""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 129.2041ms
+2024-05-23 00:30:09.616 -05:00 [Information] Applying Migrations 
+2024-05-23 00:30:10.017 -05:00 [Information] Applying migration '"20240522184828_Init"'.
+2024-05-23 00:30:10.064 -05:00 [Information] Connection  Database Succeeded.
+2024-05-23 00:30:10.846 -05:00 [Information] Insert Trending: Title: The Fall Guy, Year: 2024, Watchers: 87
+2024-05-23 00:30:10.848 -05:00 [Information] Insert Trending: Title: Godzilla x Kong: The New Empire, Year: 2024, Watchers: 27
+2024-05-23 00:30:10.848 -05:00 [Information] Insert Trending: Title: Boy Kills World, Year: 2024, Watchers: 24
+2024-05-23 00:30:10.849 -05:00 [Information] Insert Trending: Title: The Ministry of Ungentlemanly Warfare, Year: 2024, Watchers: 23
+2024-05-23 00:30:10.849 -05:00 [Information] Insert Trending: Title: Kingdom of the Planet of the Apes, Year: 2024, Watchers: 15
+2024-05-23 00:30:10.850 -05:00 [Information] Insert Trending: Title: Ghostbusters: Frozen Empire, Year: 2024, Watchers: 12
+2024-05-23 00:30:10.851 -05:00 [Information] Insert Trending: Title: Challengers, Year: 2024, Watchers: 12
+2024-05-23 00:30:10.851 -05:00 [Information] Insert Trending: Title: Dune: Part Two, Year: 2024, Watchers: 11
+2024-05-23 00:30:10.852 -05:00 [Information] Insert Trending: Title: Godzilla Minus One, Year: 2023, Watchers: 11
+2024-05-23 00:30:10.853 -05:00 [Information] Insert Trending: Title: War for the Planet of the Apes, Year: 2017, Watchers: 8
+2024-05-23 00:30:10.888 -05:00 [Information] Insert Popular: Title: Deadpool, Year: 2016
+2024-05-23 00:30:10.889 -05:00 [Information] Insert Popular: Title: Guardians of the Galaxy, Year: 2014
+2024-05-23 00:30:10.890 -05:00 [Information] Insert Popular: Title: The Dark Knight, Year: 2008
+2024-05-23 00:30:10.890 -05:00 [Information] Insert Popular: Title: Interstellar, Year: 2014
+2024-05-23 00:30:10.891 -05:00 [Information] Insert Popular: Title: Inception, Year: 2010
+2024-05-23 00:30:10.892 -05:00 [Information] Insert Popular: Title: The Avengers, Year: 2012
+2024-05-23 00:30:10.893 -05:00 [Information] Insert Popular: Title: Doctor Strange, Year: 2016
+2024-05-23 00:30:10.893 -05:00 [Information] Insert Popular: Title: The Matrix, Year: 1999
+2024-05-23 00:30:10.894 -05:00 [Information] Insert Popular: Title: Logan, Year: 2017
+2024-05-23 00:30:10.895 -05:00 [Information] Insert Popular: Title: Avatar, Year: 2009
+2024-05-23 00:30:11.034 -05:00 [Information] Background Service is starting.
+2024-05-23 00:30:11.037 -05:00 [Information] Background Service is working.
+2024-05-23 00:30:11.080 -05:00 [Warning] The WebRootPath was not found: "D:\Proyectos\GitHub\ET_APIMOVIES\ApiMovies\wwwroot". Static files may be unavailable.
+2024-05-23 00:30:11.166 -05:00 [Information] Now listening on: "https://localhost:7125"
+2024-05-23 00:30:11.166 -05:00 [Information] Now listening on: "http://localhost:5237"
+2024-05-23 00:30:11.167 -05:00 [Information] Application started. Press Ctrl+C to shut down.
+2024-05-23 00:30:11.168 -05:00 [Information] Hosting environment: "Development"
+2024-05-23 00:30:11.168 -05:00 [Information] Content root path: "D:\Proyectos\GitHub\ET_APIMOVIES\ApiMovies"
+2024-05-23 00:30:11.851 -05:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7125""""/swagger/index.html""" - null null
+2024-05-23 00:30:11.993 -05:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7125""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 146.1814ms
+2024-05-23 00:30:12.019 -05:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7125""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2024-05-23 00:30:12.029 -05:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7125""""/_framework/aspnetcore-browser-refresh.js""" - 200 13754 "application/javascript; charset=utf-8" 9.889ms
+2024-05-23 00:30:12.044 -05:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7125""""/_vs/browserLink""" - null null
+2024-05-23 00:30:12.101 -05:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7125""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 56.3957ms
+2024-05-23 00:30:12.256 -05:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7125""""/swagger/v1/swagger.json""" - null null
+2024-05-23 00:30:12.265 -05:00 [Information] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-05-23 00:30:12.363 -05:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7125""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 107.2382ms
+2024-05-23 00:30:17.869 -05:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7125""""/ApiMovies/v1/Search/movie/inte""" - null null
+2024-05-23 00:30:17.906 -05:00 [Information] Executing endpoint '"HTTP: GET ApiMovies/v1/Search/movie/{name}"'
+2024-05-23 00:30:18.035 -05:00 [Information] Setting HTTP status code 200.
+2024-05-23 00:30:18.039 -05:00 [Information] Writing value of type '"Movie"' as Json.
+2024-05-23 00:30:18.043 -05:00 [Information] Executed endpoint '"HTTP: GET ApiMovies/v1/Search/movie/{name}"'
+2024-05-23 00:30:18.046 -05:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7125""""/ApiMovies/v1/Search/movie/inte""" - 200 null "application/json; charset=utf-8" 177.9169ms
+2024-05-23 00:30:30.449 -05:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7125""""/ApiMovies/v1/Trending""" - null null
+2024-05-23 00:30:30.452 -05:00 [Information] Executing endpoint '"HTTP: GET ApiMovies/v1/Trending"'
+2024-05-23 00:30:30.508 -05:00 [Information] Setting HTTP status code 200.
+2024-05-23 00:30:30.509 -05:00 [Information] Writing value of type '"List`1"' as Json.
+2024-05-23 00:30:30.513 -05:00 [Information] Executed endpoint '"HTTP: GET ApiMovies/v1/Trending"'
+2024-05-23 00:30:30.515 -05:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7125""""/ApiMovies/v1/Trending""" - 200 null "application/json; charset=utf-8" 66.322ms
+2024-05-23 00:31:20.981 -05:00 [Information] Connection  Database Succeeded.
+2024-05-23 00:31:21.182 -05:00 [Information] Background Service is starting.
+2024-05-23 00:31:21.184 -05:00 [Information] Background Service is working.
+2024-05-23 00:31:21.224 -05:00 [Warning] The WebRootPath was not found: "D:\Proyectos\GitHub\ET_APIMOVIES\ApiMovies\wwwroot". Static files may be unavailable.
+2024-05-23 00:31:21.322 -05:00 [Information] Now listening on: "https://localhost:7125"
+2024-05-23 00:31:21.323 -05:00 [Information] Now listening on: "http://localhost:5237"
+2024-05-23 00:31:21.323 -05:00 [Information] Application started. Press Ctrl+C to shut down.
+2024-05-23 00:31:21.324 -05:00 [Information] Hosting environment: "Development"
+2024-05-23 00:31:21.325 -05:00 [Information] Content root path: "D:\Proyectos\GitHub\ET_APIMOVIES\ApiMovies"
+2024-05-23 00:31:21.914 -05:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7125""""/swagger/index.html""" - null null
+2024-05-23 00:31:22.079 -05:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7125""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 169.4921ms
+2024-05-23 00:31:22.150 -05:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7125""""/_vs/browserLink""" - null null
+2024-05-23 00:31:22.156 -05:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7125""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2024-05-23 00:31:22.172 -05:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7125""""/_framework/aspnetcore-browser-refresh.js""" - 200 13754 "application/javascript; charset=utf-8" 15.7541ms
+2024-05-23 00:31:22.198 -05:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7125""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 48.5507ms
+2024-05-23 00:31:22.260 -05:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7125""""/swagger/v1/swagger.json""" - null null
+2024-05-23 00:31:22.266 -05:00 [Information] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-05-23 00:31:22.352 -05:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7125""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 92.8228ms
+2024-05-23 00:31:32.175 -05:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7125""""/ApiMovies/v1/Search/movie/in""" - null null
+2024-05-23 00:31:32.189 -05:00 [Information] Executing endpoint '"HTTP: GET ApiMovies/v1/Search/movie/{name}"'
+2024-05-23 00:31:32.284 -05:00 [Information] Setting HTTP status code 200.
+2024-05-23 00:31:32.287 -05:00 [Information] Writing value of type '"List`1"' as Json.
+2024-05-23 00:31:32.293 -05:00 [Information] Executed endpoint '"HTTP: GET ApiMovies/v1/Search/movie/{name}"'
+2024-05-23 00:31:32.298 -05:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7125""""/ApiMovies/v1/Search/movie/in""" - 200 null "application/json; charset=utf-8" 123.8466ms
